@@ -1,7 +1,7 @@
-import 'package:clean_architeture_flutter/app/main/builders/validation_builder.dart';
-import 'package:clean_architeture_flutter/app/main/composites/validation_composite.dart';
-import 'package:clean_architeture_flutter/app/presentation/protocols/validation.dart';
-import 'package:clean_architeture_flutter/app/validation/protocols/field_validation.dart';
+import 'package:adonate_app/app/main/builders/validation_builder.dart';
+import 'package:adonate_app/app/main/composites/validation_composite.dart';
+import 'package:adonate_app/app/presentation/protocols/validation.dart';
+import 'package:adonate_app/app/validation/protocols/field_validation.dart';
 
 Validation makeSignUpValidation() =>
     ValidationComposite(makeSignUpValidations());

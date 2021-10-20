@@ -1,6 +1,6 @@
-import 'package:clean_architeture_flutter/app/data/cache/delete_shared_preferences.dart';
-import 'package:clean_architeture_flutter/app/data/cache/fetch_shared_preferences.dart';
-import 'package:clean_architeture_flutter/app/data/cache/save_shared_preferences.dart';
+import 'package:adonate_app/app/data/cache/delete_shared_preferences.dart';
+import 'package:adonate_app/app/data/cache/fetch_shared_preferences.dart';
+import 'package:adonate_app/app/data/cache/save_shared_preferences.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class SharedPreferencesAdapter

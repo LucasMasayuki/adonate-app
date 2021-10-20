@@ -1,5 +1,5 @@
-import 'package:clean_architeture_flutter/app/presentation/protocols/validation.dart';
-import 'package:clean_architeture_flutter/app/validation/protocols/field_validation.dart';
+import 'package:adonate_app/app/presentation/protocols/validation.dart';
+import 'package:adonate_app/app/validation/protocols/field_validation.dart';
 
 class ValidationComposite implements Validation {
   final List<FieldValidation> validations;

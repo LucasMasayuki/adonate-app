@@ -4,8 +4,8 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:get/get_connect/http/src/status/http_status.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
-import 'package:clean_architeture_flutter/app/data/api/http_error.dart';
-import 'package:clean_architeture_flutter/app/infra/api/dio_adapter.dart';
+import 'package:adonate_app/app/data/api/http_error.dart';
+import 'package:adonate_app/app/infra/api/dio_adapter.dart';
 
 import 'dio_adapter_test.mocks.dart';
 

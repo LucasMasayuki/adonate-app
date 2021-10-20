@@ -1,9 +1,9 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
-import 'package:clean_architeture_flutter/app/domain/entities/user_entity.dart';
-import 'package:clean_architeture_flutter/app/domain/usecases/load_current_user.dart';
-import 'package:clean_architeture_flutter/app/presentation/presenters/getx_splash_presenter.dart';
+import 'package:adonate_app/app/domain/entities/user_entity.dart';
+import 'package:adonate_app/app/domain/usecases/load_current_user.dart';
+import 'package:adonate_app/app/presentation/presenters/getx_splash_presenter.dart';
 
 import '../../mocks/fake_user_factory.dart';
 import 'getx_splash_presenter_test.mocks.dart';

@@ -2,7 +2,7 @@ import 'package:faker/faker.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
-import 'package:clean_architeture_flutter/app/infra/cache/shared_preferences_adapter.dart';
+import 'package:adonate_app/app/infra/cache/shared_preferences_adapter.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'shared_preferences_adapter_test.mocks.dart';

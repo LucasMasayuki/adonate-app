@@ -1,6 +1,6 @@
 import 'package:faker/faker.dart';
-import 'package:clean_architeture_flutter/app/domain/usecases/add_user.dart';
-import 'package:clean_architeture_flutter/app/domain/usecases/authentication.dart';
+import 'package:adonate_app/app/domain/usecases/add_user.dart';
+import 'package:adonate_app/app/domain/usecases/authentication.dart';
 
 class FakeParamsFactory {
   static AuthenticationParams makeAuthentication() => AuthenticationParams(

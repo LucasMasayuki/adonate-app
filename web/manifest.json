@@ -1,6 +1,6 @@
 {
-    "name": "clean_architeture_flutter",
-    "short_name": "clean_architeture_flutter",
+    "name": "adonate_app",
+    "short_name": "adonate_app",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

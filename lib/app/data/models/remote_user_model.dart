@@ -1,5 +1,5 @@
-import 'package:clean_architeture_flutter/app/data/api/http_error.dart';
-import 'package:clean_architeture_flutter/app/domain/entities/user_entity.dart';
+import 'package:adonate_app/app/data/api/http_error.dart';
+import 'package:adonate_app/app/domain/entities/user_entity.dart';
 
 class RemoteUserModel {
   final String token;

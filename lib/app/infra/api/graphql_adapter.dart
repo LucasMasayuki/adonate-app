@@ -2,8 +2,8 @@ import 'dart:async';
 
 import 'package:get/get_connect/http/src/status/http_status.dart';
 import 'package:graphql_flutter/graphql_flutter.dart';
-import 'package:clean_architeture_flutter/app/data/api/graphql.dart';
-import 'package:clean_architeture_flutter/app/data/api/http_error.dart';
+import 'package:adonate_app/app/data/api/graphql.dart';
+import 'package:adonate_app/app/data/api/http_error.dart';
 
 class GraphQlAdapter implements GraphQl {
   final GraphQLClient client;

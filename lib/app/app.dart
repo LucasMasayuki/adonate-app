@@ -1,5 +1,5 @@
-import 'package:clean_architeture_flutter/app/main/factories/pages/login/login_page_factory.dart';
-import 'package:clean_architeture_flutter/app/main/factories/pages/signup/signup_page_factory.dart';
+import 'package:adonate_app/app/main/factories/pages/login/login_page_factory.dart';
+import 'package:adonate_app/app/main/factories/pages/signup/signup_page_factory.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
@@ -8,7 +8,7 @@ import 'main/factories/pages/splash/splash_page_factory.dart';
 import 'ui/theme/app_theme.dart';
 
 // Main App Widget
-class CleanArchitetureFlutterApp extends StatelessWidget {
+class AdonateApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.light);
@@ -17,7 +17,7 @@ class CleanArchitetureFlutterApp extends StatelessWidget {
     );
 
     return GetMaterialApp(
-      title: 'Clean architeture flutter',
+      title: 'Adonate',
       debugShowCheckedModeBanner: false,
       theme: makeAppTheme(),
       navigatorObservers: [routeObserver],

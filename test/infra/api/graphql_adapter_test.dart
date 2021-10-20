@@ -3,9 +3,9 @@ import 'package:get/get_connect/http/src/status/http_status.dart';
 import 'package:graphql_flutter/graphql_flutter.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
-import 'package:clean_architeture_flutter/app/data/api/http_error.dart';
-import 'package:clean_architeture_flutter/app/infra/api/graphql_adapter.dart';
-import 'package:clean_architeture_flutter/app/main/graphql/auth.dart';
+import 'package:adonate_app/app/data/api/http_error.dart';
+import 'package:adonate_app/app/infra/api/graphql_adapter.dart';
+import 'package:adonate_app/app/main/graphql/auth.dart';
 
 import "package:http/http.dart" as http;
 

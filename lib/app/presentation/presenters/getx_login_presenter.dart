@@ -1,15 +1,15 @@
 import 'package:get/get.dart';
 
-import 'package:clean_architeture_flutter/app/domain/helpers/domain_errors.dart';
-import 'package:clean_architeture_flutter/app/domain/usecases/authentication.dart';
-import 'package:clean_architeture_flutter/app/domain/usecases/save_current_user.dart';
-import 'package:clean_architeture_flutter/app/presentation/mixins/form_manager.dart';
-import 'package:clean_architeture_flutter/app/presentation/mixins/loading_manager.dart';
-import 'package:clean_architeture_flutter/app/presentation/mixins/navigation_manager.dart';
-import 'package:clean_architeture_flutter/app/presentation/mixins/ui_error_manager.dart';
-import 'package:clean_architeture_flutter/app/presentation/protocols/validation.dart';
-import 'package:clean_architeture_flutter/app/ui/helpers/ui_error.dart';
-import 'package:clean_architeture_flutter/app/ui/pages/login/login_presenter.dart';
+import 'package:adonate_app/app/domain/helpers/domain_errors.dart';
+import 'package:adonate_app/app/domain/usecases/authentication.dart';
+import 'package:adonate_app/app/domain/usecases/save_current_user.dart';
+import 'package:adonate_app/app/presentation/mixins/form_manager.dart';
+import 'package:adonate_app/app/presentation/mixins/loading_manager.dart';
+import 'package:adonate_app/app/presentation/mixins/navigation_manager.dart';
+import 'package:adonate_app/app/presentation/mixins/ui_error_manager.dart';
+import 'package:adonate_app/app/presentation/protocols/validation.dart';
+import 'package:adonate_app/app/ui/helpers/ui_error.dart';
+import 'package:adonate_app/app/ui/pages/login/login_presenter.dart';
 
 class GetxLoginPresenter extends GetxController
     with LoadingManager, NavigationManager, FormManager, UIErrorManager

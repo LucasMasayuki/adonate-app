@@ -1,4 +1,4 @@
-# clean_architeture_flutter
+# adonate_app
 
 A new Flutter project.
 

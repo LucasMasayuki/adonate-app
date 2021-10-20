@@ -1,6 +1,6 @@
 import 'package:equatable/equatable.dart';
-import 'package:clean_architeture_flutter/app/presentation/protocols/validation.dart';
-import 'package:clean_architeture_flutter/app/validation/protocols/field_validation.dart';
+import 'package:adonate_app/app/presentation/protocols/validation.dart';
+import 'package:adonate_app/app/validation/protocols/field_validation.dart';
 
 class EmailValidation extends Equatable implements FieldValidation {
   final String field;

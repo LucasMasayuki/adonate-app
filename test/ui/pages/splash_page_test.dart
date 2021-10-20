@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
-import 'package:clean_architeture_flutter/app/ui/pages/splash/splash_page.dart';
-import 'package:clean_architeture_flutter/app/ui/pages/splash/splash_presenter.dart';
+import 'package:adonate_app/app/ui/pages/splash/splash_page.dart';
+import 'package:adonate_app/app/ui/pages/splash/splash_presenter.dart';
 
 import '../helpers/helper.dart';
 import 'splash_page_test.mocks.dart';

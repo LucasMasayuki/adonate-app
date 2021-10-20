@@ -1,4 +1,4 @@
-import 'package:clean_architeture_flutter/app/ui/helpers/ui_error.dart';
+import 'package:adonate_app/app/ui/helpers/ui_error.dart';
 
 abstract class SignUpPresenter {
   Stream<UIError?> get nameErrorStream;

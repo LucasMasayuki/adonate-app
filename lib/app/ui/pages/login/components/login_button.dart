@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:clean_architeture_flutter/app/ui/helpers/i18n/resources.dart';
+import 'package:adonate_app/app/ui/helpers/i18n/resources.dart';
 
 class LoginButton extends StatelessWidget {
   final Stream<bool?> isFormValidStream;

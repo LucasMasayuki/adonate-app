@@ -1,12 +1,12 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
-import 'package:clean_architeture_flutter/app/data/api/graphql.dart';
-import 'package:clean_architeture_flutter/app/data/api/http_error.dart';
-import 'package:clean_architeture_flutter/app/data/usecases/remote_authentication.dart';
-import 'package:clean_architeture_flutter/app/domain/helpers/domain_errors.dart';
-import 'package:clean_architeture_flutter/app/domain/usecases/authentication.dart';
-import 'package:clean_architeture_flutter/app/main/graphql/auth.dart';
+import 'package:adonate_app/app/data/api/graphql.dart';
+import 'package:adonate_app/app/data/api/http_error.dart';
+import 'package:adonate_app/app/data/usecases/remote_authentication.dart';
+import 'package:adonate_app/app/domain/helpers/domain_errors.dart';
+import 'package:adonate_app/app/domain/usecases/authentication.dart';
+import 'package:adonate_app/app/main/graphql/auth.dart';
 
 import '../../mocks/fake_params_factory.dart';
 import '../../mocks/fake_user_factory.dart';

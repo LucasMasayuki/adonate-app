@@ -1,8 +1,8 @@
 import 'package:get/get.dart';
 
-import 'package:clean_architeture_flutter/app/domain/usecases/load_current_user.dart';
-import 'package:clean_architeture_flutter/app/presentation/mixins/navigation_manager.dart';
-import 'package:clean_architeture_flutter/app/ui/pages/splash/splash_presenter.dart';
+import 'package:adonate_app/app/domain/usecases/load_current_user.dart';
+import 'package:adonate_app/app/presentation/mixins/navigation_manager.dart';
+import 'package:adonate_app/app/ui/pages/splash/splash_presenter.dart';
 
 class GetxSplashPresenter extends GetxController
     with NavigationManager

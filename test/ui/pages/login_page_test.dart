@@ -6,9 +6,9 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:get/get.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
-import 'package:clean_architeture_flutter/app/ui/helpers/ui_error.dart';
-import 'package:clean_architeture_flutter/app/ui/pages/login/login_page.dart';
-import 'package:clean_architeture_flutter/app/ui/pages/login/login_presenter.dart';
+import 'package:adonate_app/app/ui/helpers/ui_error.dart';
+import 'package:adonate_app/app/ui/pages/login/login_page.dart';
+import 'package:adonate_app/app/ui/pages/login/login_presenter.dart';
 
 import '../helpers/helper.dart';
 import 'login_page_test.mocks.dart';

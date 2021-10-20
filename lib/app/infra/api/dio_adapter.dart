@@ -2,8 +2,8 @@ import 'dart:async';
 
 import 'package:dio/dio.dart';
 import 'package:get/get_connect/http/src/status/http_status.dart';
-import 'package:clean_architeture_flutter/app/data/api/dio_client.dart';
-import 'package:clean_architeture_flutter/app/data/api/http_error.dart';
+import 'package:adonate_app/app/data/api/dio_client.dart';
+import 'package:adonate_app/app/data/api/http_error.dart';
 
 class DioAdapter implements DioClient {
   final Dio client;

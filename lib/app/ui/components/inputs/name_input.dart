@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:clean_architeture_flutter/app/ui/helpers/i18n/resources.dart';
-import 'package:clean_architeture_flutter/app/ui/helpers/ui_error.dart';
+import 'package:adonate_app/app/ui/helpers/i18n/resources.dart';
+import 'package:adonate_app/app/ui/helpers/ui_error.dart';
 
 class NameInput extends StatelessWidget {
   final Stream<UIError?> nameErrorStream;

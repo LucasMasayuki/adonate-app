@@ -2,10 +2,10 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/annotations.dart';
 import 'package:faker/faker.dart';
 import 'package:mockito/mockito.dart';
-import 'package:clean_architeture_flutter/app/data/cache/fetch_shared_preferences.dart';
-import 'package:clean_architeture_flutter/app/data/usecases/local_load_current_user.dart';
-import 'package:clean_architeture_flutter/app/domain/entities/user_entity.dart';
-import 'package:clean_architeture_flutter/app/domain/helpers/domain_errors.dart';
+import 'package:adonate_app/app/data/cache/fetch_shared_preferences.dart';
+import 'package:adonate_app/app/data/usecases/local_load_current_user.dart';
+import 'package:adonate_app/app/domain/entities/user_entity.dart';
+import 'package:adonate_app/app/domain/helpers/domain_errors.dart';
 
 import 'local_load_current_user_test.mocks.dart';
 

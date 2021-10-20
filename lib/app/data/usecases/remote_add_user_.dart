@@ -1,10 +1,10 @@
-import 'package:clean_architeture_flutter/app/data/api/graphql.dart';
-import 'package:clean_architeture_flutter/app/data/api/http_error.dart';
-import 'package:clean_architeture_flutter/app/data/models/remote_user_model.dart';
-import 'package:clean_architeture_flutter/app/domain/entities/user_entity.dart';
-import 'package:clean_architeture_flutter/app/domain/helpers/domain_errors.dart';
-import 'package:clean_architeture_flutter/app/domain/usecases/add_user.dart';
-import 'package:clean_architeture_flutter/app/main/graphql/auth.dart';
+import 'package:adonate_app/app/data/api/graphql.dart';
+import 'package:adonate_app/app/data/api/http_error.dart';
+import 'package:adonate_app/app/data/models/remote_user_model.dart';
+import 'package:adonate_app/app/domain/entities/user_entity.dart';
+import 'package:adonate_app/app/domain/helpers/domain_errors.dart';
+import 'package:adonate_app/app/domain/usecases/add_user.dart';
+import 'package:adonate_app/app/main/graphql/auth.dart';
 
 class RemoteAddUser implements AddUser {
   final GraphQl graphQlClient;

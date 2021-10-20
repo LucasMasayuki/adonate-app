@@ -1,7 +1,7 @@
 import 'package:faker/faker.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:clean_architeture_flutter/app/presentation/protocols/validation.dart';
-import 'package:clean_architeture_flutter/app/validation/validators/min_length_validation.dart';
+import 'package:adonate_app/app/presentation/protocols/validation.dart';
+import 'package:adonate_app/app/validation/validators/min_length_validation.dart';
 
 void main() {
   MinLengthValidation? sut;
